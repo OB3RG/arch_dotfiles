@@ -39,7 +39,7 @@ ln -s "$DOTFILES/gitconfig" "$HOME/.gitconfig"
 ln -s "$DOTFILES/tmuxgo" "$HOME/.tmuxgo"
 ln -s "$DOTFILES/tmux.conf" "$HOME/.tmux.conf"
 ln -s "$DOTFILES/eslintrc.js" "$HOME/.eslintrc.js"
-ln -s "$DOTFILES/vim-config" "$HOME/.vim"
+ln -s "$DOTFILES/vim" "$HOME/.vim"
 
 $GITCLONE https://github.com/junegunn/fzf.git "$DOTFZF"
 "$DOTFZF/install" --key-bindings --completion --no-update-rc
