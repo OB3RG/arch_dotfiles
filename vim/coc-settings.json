@@ -1,7 +1,7 @@
 {
   "languageserver": {
     "flow": {
-      "command": "./node_modules/.bin/flow",
+      "command": "/home/oberg/.nvm/versions/node/v12.13.1/bin/flow",
       "args": ["lsp"],
       "filetypes": ["javascript", "javascriptreact"],
       "initializationOptions": {},

@@ -67,7 +67,7 @@ let g:ale_fixers['javascript'] = ['prettier']
 let g:ale_fixers['json'] = ['prettier']
 let g:ale_fixers['scss'] = ['stylelint', 'prettier']
 let g:ale_fix_on_save = 1 " Fix files automatically on save
-let g:ale_javascript_eslint_use_global = 1
+let g:ale_javascript_prettier_use_local_config = 1
 let g:ale_linters = {'javascript': ['flow']}
 let g:ale_pattern_options = {
       \ '\.min\.js$': {'ale_linters': [], 'ale_fixers': []},
