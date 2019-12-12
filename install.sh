@@ -23,11 +23,11 @@ rm -rf \
   "$DOTLOCAL" \
   "$HOME/.bashrc" \
   "$HOME/.gitconfig" \
-  "$HOME/.tmux.conf" \
   "$HOME/.eslintrc.js" \
-  "$HOME/.tmuxgo" \
-  "$HOME/.zshrc"
-  "$HOME/.vim"
+  "$HOME/.zshrc" \
+  "$HOME/.vim" \
+  "$HOME/.Xresources" \
+  "$HOME/.config/alacritty"
 
 mkdir -p \
   "$DOTLOCAL" \
@@ -36,10 +36,10 @@ ln -s "$DOTFILES/bashrc" "$HOME/.bashrc"
 ln -s "$DOTFILES/gitconfig" "$HOME/.gitconfig"
 ln -s "$DOTFILES/zshrc" "$HOME/.zshrc"
 ln -s "$DOTFILES/gitconfig" "$HOME/.gitconfig"
-ln -s "$DOTFILES/tmuxgo" "$HOME/.tmuxgo"
-ln -s "$DOTFILES/tmux.conf" "$HOME/.tmux.conf"
 ln -s "$DOTFILES/eslintrc.js" "$HOME/.eslintrc.js"
 ln -s "$DOTFILES/vim" "$HOME/.vim"
+ln -s "$DOTFILES/Xresources" "$HOME/.Xresources"
+ln -s "$DOTFILES/alacritty" "$HOME/.config/alacritty"
 
 $GITCLONE https://github.com/junegunn/fzf.git "$DOTFZF"
 "$DOTFZF/install" --key-bindings --completion --no-update-rc
