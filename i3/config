@@ -27,10 +27,13 @@ font xft:URWGothic-Book 11
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec WINIT_HIDPI_FACTOR=1 alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
+
+# Reload conky
+bindsym $mod+Shift+Mod1+r exec $HOME/.i3/reload-conky.sh
 
 # start program launcher
 bindsym $mod+x exec --no-startup-id dmenu_recency

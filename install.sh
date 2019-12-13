@@ -28,7 +28,8 @@ rm -rf \
   "$HOME/.vim" \
   "$HOME/.Xresources" \
   "$HOME/.config/alacritty" \
-  "$HOME/.i3"
+  "$HOME/.i3" \
+  "$HOME/.config/conky"
 
 mkdir -p \
   "$DOTLOCAL" \
@@ -42,6 +43,7 @@ ln -s "$DOTFILES/vim" "$HOME/.vim"
 ln -s "$DOTFILES/Xresources" "$HOME/.Xresources"
 ln -s "$DOTFILES/alacritty" "$HOME/.config/alacritty"
 ln -s "$DOTFILES/i3" "$HOME/.i3"
+ln -s "$DOTFILES/conky" "$HOME/.config/conky"
 
 $GITCLONE https://github.com/junegunn/fzf.git "$DOTFZF"
 "$DOTFZF/install" --key-bindings --completion --no-update-rc
