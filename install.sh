@@ -27,7 +27,8 @@ rm -rf \
   "$HOME/.zshrc" \
   "$HOME/.vim" \
   "$HOME/.Xresources" \
-  "$HOME/.config/alacritty"
+  "$HOME/.config/alacritty" \
+  "$HOME/.i3"
 
 mkdir -p \
   "$DOTLOCAL" \
@@ -40,6 +41,7 @@ ln -s "$DOTFILES/eslintrc.js" "$HOME/.eslintrc.js"
 ln -s "$DOTFILES/vim" "$HOME/.vim"
 ln -s "$DOTFILES/Xresources" "$HOME/.Xresources"
 ln -s "$DOTFILES/alacritty" "$HOME/.config/alacritty"
+ln -s "$DOTFILES/i3" "$HOME/.i3"
 
 $GITCLONE https://github.com/junegunn/fzf.git "$DOTFZF"
 "$DOTFZF/install" --key-bindings --completion --no-update-rc
