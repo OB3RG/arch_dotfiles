@@ -23,6 +23,8 @@ unzip
 fzf
 zsh
 arc-gtk-theme
+docker
+docker-compose
 
 
 gvfs
@@ -38,6 +40,9 @@ libu2f-host
 #AUR
 xtitle
 polybar
+spotify
+slack
+discord
 
 
 #Compile or custom resource
