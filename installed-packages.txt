@@ -25,6 +25,9 @@ zsh
 arc-gtk-theme
 docker
 docker-compose
+xscreensaver
+htop
+dunst
 
 
 gvfs

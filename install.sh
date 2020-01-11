@@ -29,7 +29,8 @@ rm -rf \
   "$HOME/.Xresources" \
   "$HOME/.config/bspwm" \
   "$HOME/.config/sxhkd" \
-  "$HOME/.config/polybar"
+  "$HOME/.config/polybar" \
+  "$HOME/.config/dunst"
 
 mkdir -p \
   "$DOTLOCAL" \
@@ -44,6 +45,7 @@ ln -S "$DOTFILES/Xresources" "$HOME/.Xresources"
 ln -s "$DOTFILES/bspwm" "$HOME/.config/bspwm"
 ln -s "$DOTFILES/sxhkd" "$HOME/.config/sxhkd"
 ln -s "$DOTFILES/polybar" "$HOME/.config/polybar"
+ln -s "$DOTFILES/dunst" "$HOME/.config/dunst"
 
 $GITCLONE https://github.com/junegunn/fzf.git "$DOTFZF"
 "$DOTFZF/install" --key-bindings --completion --no-update-rc
