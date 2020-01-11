@@ -26,10 +26,9 @@ rm -rf \
   "$HOME/.eslintrc.js" \
   "$HOME/.zshrc" \
   "$HOME/.vim" \
-  "$HOME/.Xresources" \
-  "$HOME/.config/alacritty" \
-  "$HOME/.i3" \
-  "$HOME/.config/conky"
+  "$HOME/.config/bspwm" \
+  "$HOME/.config/sxhkd" \
+  "$HOME/.config/polybar"
 
 mkdir -p \
   "$DOTLOCAL" \
@@ -40,10 +39,9 @@ ln -s "$DOTFILES/zshrc" "$HOME/.zshrc"
 ln -s "$DOTFILES/gitconfig" "$HOME/.gitconfig"
 ln -s "$DOTFILES/eslintrc.js" "$HOME/.eslintrc.js"
 ln -s "$DOTFILES/vim" "$HOME/.vim"
-ln -s "$DOTFILES/Xresources" "$HOME/.Xresources"
-ln -s "$DOTFILES/alacritty" "$HOME/.config/alacritty"
-ln -s "$DOTFILES/i3" "$HOME/.i3"
-ln -s "$DOTFILES/conky" "$HOME/.config/conky"
+ln -s "$DOTFILES/bspwm" "$HOME/.config/bspwm"
+ln -s "$DOTFILES/sxhkd" "$HOME/.config/sxhkd"
+ln -s "$DOTFILES/polybar" "$HOME/.config/polybar"
 
 $GITCLONE https://github.com/junegunn/fzf.git "$DOTFZF"
 "$DOTFZF/install" --key-bindings --completion --no-update-rc
