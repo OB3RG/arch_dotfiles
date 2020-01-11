@@ -69,13 +69,7 @@ $(vim_prompt)%F{blue}%~$(git_prompt)
 
 source $HOME/.fzf.zsh
 
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# tabtab source for serverless package
-# uninstall by removing these lines or running `tabtab uninstall serverless`
-[[ -f /home/oberg/Work/volex/volex-backend/node_modules/tabtab/.completions/serverless.zsh ]] && . /home/oberg/Work/volex/volex-backend/node_modules/tabtab/.completions/serverless.zsh
-# tabtab source for sls package
-# uninstall by removing these lines or running `tabtab uninstall sls`
-[[ -f /home/oberg/Work/volex/volex-backend/node_modules/tabtab/.completions/sls.zsh ]] && . /home/oberg/Work/volex/volex-backend/node_modules/tabtab/.completions/sls.zsh
-# tabtab source for slss package
-# uninstall by removing these lines or running `tabtab uninstall slss`
-[[ -f /home/oberg/Work/volex/volex-backend/node_modules/tabtab/.completions/slss.zsh ]] && . /home/oberg/Work/volex/volex-backend/node_modules/tabtab/.completions/slss.zsh

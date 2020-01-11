@@ -26,6 +26,7 @@ rm -rf \
   "$HOME/.eslintrc.js" \
   "$HOME/.zshrc" \
   "$HOME/.vim" \
+  "$HOME/.Xresources" \
   "$HOME/.config/bspwm" \
   "$HOME/.config/sxhkd" \
   "$HOME/.config/polybar"
@@ -39,6 +40,7 @@ ln -s "$DOTFILES/zshrc" "$HOME/.zshrc"
 ln -s "$DOTFILES/gitconfig" "$HOME/.gitconfig"
 ln -s "$DOTFILES/eslintrc.js" "$HOME/.eslintrc.js"
 ln -s "$DOTFILES/vim" "$HOME/.vim"
+ln -S "$DOTFILES/Xresources" "$HOME/.Xresources"
 ln -s "$DOTFILES/bspwm" "$HOME/.config/bspwm"
 ln -s "$DOTFILES/sxhkd" "$HOME/.config/sxhkd"
 ln -s "$DOTFILES/polybar" "$HOME/.config/polybar"
