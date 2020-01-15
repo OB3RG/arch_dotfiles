@@ -28,6 +28,9 @@ docker-compose
 xscreensaver
 htop
 dunst
+docker
+docker-compose
+ttf-fira-code
 
 
 gvfs
