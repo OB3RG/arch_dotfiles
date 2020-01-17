@@ -31,6 +31,7 @@ dunst
 docker
 docker-compose
 ttf-fira-code
+dbeaver
 
 
 gvfs
@@ -49,6 +50,7 @@ polybar
 spotify
 slack
 discord
+postman
 
 
 #Compile or custom resource
