@@ -46,7 +46,8 @@ xterm*color13: _color13
 xterm*color14: _color14
 xterm*color15: _color15
 
-xterm*faceName: xft:Fira Code:style=Light:pixelsize=18:antialias=true
+xterm*faceName: monospaced
+xterm*faceSize: 7
 xterm*selectToClipboard: true
 
 Xcursor.size: 16

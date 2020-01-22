@@ -34,6 +34,7 @@ ttf-fira-code
 dbeaver
 dhcpcd
 usbutils
+chromium
 
 
 gvfs
