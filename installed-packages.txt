@@ -35,6 +35,7 @@ dbeaver
 dhcpcd
 usbutils
 chromium
+the_silver_searcher
 
 
 gvfs
