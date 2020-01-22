@@ -54,6 +54,7 @@ spotify
 slack
 discord
 postman
+ttf-iosevka-term
 
 
 #Compile or custom resource

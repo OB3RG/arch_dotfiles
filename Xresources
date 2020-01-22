@@ -46,8 +46,7 @@ xterm*color13: _color13
 xterm*color14: _color14
 xterm*color15: _color15
 
-xterm*faceName: monospaced
-xterm*faceSize: 7
+xterm.vt100.faceName: Iosevka Term:size=8
 xterm*selectToClipboard: true
 
 Xcursor.size: 16
