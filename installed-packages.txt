@@ -33,6 +33,7 @@ docker-compose
 ttf-fira-code
 dbeaver
 dhcpcd
+usbutils
 
 
 gvfs
