@@ -4,11 +4,11 @@
 
 # terminal emulator
 super + Return
-	xterm
+	alacritty
 
 # program launcher
 super + @space
-	rofi -show run	
+	rofi -show run
 
 # make sxhkd reload its configuration files:
 super + Escape
