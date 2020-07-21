@@ -14,9 +14,7 @@ rm -rf "$DOTFILES"
 mkdir "$DOTFILES"
 cd "$DOTFILES" || exit
 
-git init
-git remote add origin git@github.com:OB3RG/dotfiles.git
-git pull origin master
+git clone https://github.com/OB3RG/dotfiles.git $DOTFILES
 
 rm -rf \
   "$DOTFZF" \
