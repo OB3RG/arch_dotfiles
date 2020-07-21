@@ -7,8 +7,12 @@ nitrogen --restore &
 xsetroot -cursor_name left_ptr &
 setxkbmap -model pc104 -layout us,se -option grp:ctrls_toggle &
 
-bspc monitor eDP-1 -d 1 2 3 4 5
-bspc monitor DVI-I-1 -d 6 7 8 9 0
+if [[ $(hostname) == 'obe-laptop' ]]; then
+  bspc monitor eDP-1 -d 1 2 3 4 5 6 7 8 9 0
+elif [[ $(hostname) == 'obe-desktop' ]]; then
+  bspc monitor DP-0 -d 1 2 3 4 5
+  bspc monitor DP-2 -d 6 7 8 9 0
+fi
 
 bspc config border_width               2
 bspc config window_gap                 10
