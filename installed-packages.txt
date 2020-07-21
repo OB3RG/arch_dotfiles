@@ -46,12 +46,11 @@ thunar
 libu2f-host
 inetutils
 picom
-
+ffmpeg
 
 #AUR
 xtitle
 polybar
-spotify
 slack
 discord
 postman
