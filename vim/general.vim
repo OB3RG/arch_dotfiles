@@ -5,7 +5,7 @@ filetype plugin indent on
 syntax enable
 
 " terminal colors and font
-set guifont=Fira\ Code:h18
+set guifont=Iosevka:h14
 set encoding=utf-8
 set t_Co=256
 set term=screen-256color

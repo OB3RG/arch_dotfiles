@@ -36,15 +36,13 @@ dhcpcd
 usbutils
 chromium
 the_silver_searcher
-
-
+rofi
 gvfs
 gvfs-smb
 udisks2
 tumbler
 poppler-glib
 thunar
-
 libu2f-host
 
 
@@ -55,7 +53,8 @@ spotify
 slack
 discord
 postman
-ttf-iosevka-term
+ttf-iosevka
+nvm-git
 
 
 #Compile or custom resource
