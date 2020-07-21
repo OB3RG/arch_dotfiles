@@ -86,7 +86,7 @@ font-2 = Iosevka:weight=bold:pixelsize=10;0
 
 modules-left = bspwm
 modules-center = xwindow
-modules-right = pulseaudio xkeyboard cpu memory eth temperature date powermenu
+modules-right = pulseaudio xkeyboard cpu memory wlan temperature date powermenu
 
 tray-position = right
 tray-padding = 2
