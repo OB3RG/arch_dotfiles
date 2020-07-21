@@ -45,7 +45,7 @@ poppler-glib
 thunar
 libu2f-host
 inetutils
-compton
+picom
 
 
 #AUR
