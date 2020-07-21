@@ -53,7 +53,7 @@ font-2 = Iosevka:weight=bold:pixelsize=10;0
 
 modules-left = bspwm
 modules-center = xwindow
-modules-right = xkeyboard cpu memory temperature eth date pulseaudio
+modules-right = pulseaudio xkeyboard cpu memory eth temperature date powermenu
 
 tray-position = right
 tray-padding = 2
@@ -86,7 +86,7 @@ font-2 = Iosevka:weight=bold:pixelsize=10;0
 
 modules-left = bspwm
 modules-center = xwindow
-modules-right = xkeyboard cpu memory temperature eth wlan battery date pulseaudio
+modules-right = pulseaudio xkeyboard cpu memory eth temperature date powermenu
 
 tray-position = right
 tray-padding = 2
@@ -223,7 +223,7 @@ ramp-signal-foreground = ${colors.foreground-alt}
 
 [module/eth]
 type = internal/network
-interface = eno1
+interface = enp3s0
 interval = 3.0
 
 format-connected-underline = #928374
@@ -335,6 +335,25 @@ screenchange-reload = true
 ;compositing-foreground = source
 ;compositing-border = over
 ;pseudo-transparency = false
+
+[module/powermenu]
+type = custom/menu
+
+expand-right = true
+
+format-spacing = 1
+
+label-open = OB3RG
+label-open-foreground = ${colors.primary}
+label-close = cancel
+label-close-foreground = ${colors.secondary}
+label-separator = |
+label-separator-foreground = ${colors.foreground-alt}
+
+menu-0-0 = reboot
+menu-0-0-exec = systemctl reboot
+menu-0-1 = power off
+menu-0-1-exec = systemctl poweroff
 
 [global/wm]
 margin-top = 5
