@@ -32,7 +32,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'Quramy/vim-js-pretty-template'
 
 " Appearance and themes
-Plug 'morhetz/gruvbox'
+Plug 'arcticicestudio/nord-vim'
 Plug 'itchyny/lightline.vim'
 Plug 'ap/vim-buftabline'
 
