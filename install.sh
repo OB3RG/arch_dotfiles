@@ -65,8 +65,5 @@ done
 cd "$HOME" || exit
 rm -f "${HOME}/.zcompdump*"
 
-# Required to kill the terminal's border in GNOME 3.32+
-gsettings set org.gnome.Terminal.Legacy.Settings headerbar "@mb false"
-echo
 echo "ENJOY! :)"
 

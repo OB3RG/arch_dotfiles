@@ -69,10 +69,5 @@ $(vim_prompt)%F{blue}%~$(git_prompt)
 
 source $HOME/.fzf.zsh
 
-[ -z "$NVM_DIR" ] && export NVM_DIR="$HOME/.nvm"
-source /usr/share/nvm/nvm.sh
-source /usr/share/nvm/bash_completion
-source /usr/share/nvm/install-nvm-exec
-
 # add Pulumi to the PATH
 export PATH=$PATH:$HOME/.pulumi/bin
