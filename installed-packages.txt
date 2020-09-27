@@ -49,6 +49,7 @@ picom
 ffmpeg
 nodejs
 npm
+acpilight
 
 
 #AUR
