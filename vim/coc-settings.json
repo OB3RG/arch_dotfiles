@@ -1,7 +1,7 @@
 {
   "languageserver": {
     "flow": {
-      "command": "/home/oberg/.nvm/versions/node/v12.18.2/bin/flow",
+      "command": "~/.npm-global/bin/flow",
       "args": ["lsp"],
       "filetypes": ["javascript", "javascriptreact"],
       "initializationOptions": {},
@@ -15,6 +15,6 @@
       "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
       "filetypes": ["go"]
     }
-
-  }
+  },
+  "tsserver.npm": "/usr/bin/npm"
 }

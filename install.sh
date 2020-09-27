@@ -14,7 +14,7 @@ rm -rf "$DOTFILES"
 mkdir "$DOTFILES"
 cd "$DOTFILES" || exit
 
-git clone https://github.com/OB3RG/dotfiles.git $DOTFILES
+git clone git@github.com:OB3RG/arch_dotfiles.git $DOTFILES
 
 rm -rf \
   "$DOTFZF" \
@@ -29,7 +29,8 @@ rm -rf \
   "$HOME/.config/sxhkd" \
   "$HOME/.config/polybar" \
   "$HOME/.config/dunst" \
-  "$HOME/.config/alacritty"
+  "$HOME/.config/kitty" \
+
 
 
 mkdir -p \
@@ -46,7 +47,7 @@ ln -s "$DOTFILES/bspwm" "$HOME/.config/bspwm"
 ln -s "$DOTFILES/sxhkd" "$HOME/.config/sxhkd"
 ln -s "$DOTFILES/polybar" "$HOME/.config/polybar"
 ln -s "$DOTFILES/dunst" "$HOME/.config/dunst"
-ln -s "$DOTFILES/alacritty" "$HOME/.config/alacritty"
+ln -s "$DOTFILES/kitty" "$HOME/.config/kitty"
 
 $GITCLONE https://github.com/junegunn/fzf.git "$DOTFZF"
 "$DOTFZF/install" --key-bindings --completion --no-update-rc

@@ -1,4 +1,5 @@
 # Pacman
+base-devel
 xorg
 xorg-server
 nvidia
@@ -11,12 +12,12 @@ lightdm-gtk-greeter-settings
 git
 vim
 xdo
-xdotools
+xdotool
 time
-alsa
-alsa-utils
-pulseaudio
-pavucontrol
+#alsa
+#alsa-utils
+#pulseaudio
+#pavucontrol
 nitrogen
 openssh
 unzip
@@ -26,15 +27,14 @@ arc-gtk-theme
 docker
 docker-compose
 xscreensaver
+xfce4-power-manager
 htop
 dunst
 docker
 docker-compose
-ttf-fira-code
 dbeaver
 dhcpcd
 usbutils
-chromium
 the_silver_searcher
 rofi
 gvfs
@@ -47,6 +47,9 @@ libu2f-host
 inetutils
 picom
 ffmpeg
+nodejs
+npm
+
 
 #AUR
 xtitle

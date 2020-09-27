@@ -7,13 +7,22 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 
 call plug#begin()
-Plug 'VundleVim/Vundle.vim'
 
 " Liniting and Code Formatting
 Plug 'w0rp/ale'
 
 " Go
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries'}
+
+" Elixir
+Plug 'elixir-editors/vim-elixir'
+Plug 'mhinz/vim-mix-format'
+
+" Javascript / Typescript
+Plug 'pangloss/vim-javascript'    " JavaScript support
+Plug 'leafgarland/typescript-vim' " TypeScript syntax
+Plug 'maxmellon/vim-jsx-pretty'   " JS and JSX syntax
+Plug 'jparise/vim-graphql'        " GraphQL syntax
 
 " Git
 Plug 'tpope/vim-fugitive'
@@ -28,7 +37,10 @@ Plug 'itchyny/lightline.vim'
 Plug 'ap/vim-buftabline'
 
 " Autocompletion & Intellisense
-Plug 'neoclide/coc.nvim', { 'tag': '*', 'do': { -> coc#util#install()}}
+Plug 'neoclide/coc.nvim', {'branch': 'release', 'tag': '*', 'do': { -> coc#util#install()}}
+" CocInstall coc-json coc-tsserver
+" CocInstall coc-elixir
+" CocInstall coc-json
 
 " Fuzzy Search
 Plug '~/.fzf'
