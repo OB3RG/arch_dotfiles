@@ -32,7 +32,6 @@ htop
 dunst
 docker
 docker-compose
-dbeaver
 dhcpcd
 usbutils
 the_silver_searcher
@@ -50,6 +49,7 @@ ffmpeg
 nodejs
 npm
 acpilight
+direnv
 
 
 #AUR
