@@ -7,16 +7,6 @@ nitrogen --restore &
 xsetroot -cursor_name left_ptr &
 setxkbmap -model pc104 -layout us,se -option grp:ctrls_toggle &
 
-if [[ $(hostname) == 'obe-thinkpad' ]]; then
-  polybar -r laptop &
-  bspc monitor eDP-1 -d 1 2 3 4 5 6 7 8 9 0
-elif [[ $(hostname) == 'obe-desktop' ]]; then
-  polybar desktop &
-  polybar desktop-secondary &
-  bspc monitor DP-2 -d 1 2 3 4 5
-  bspc monitor DP-0 -d 6 7 8 9 0
-fi
-
 bspc config border_width               2
 bspc config window_gap                 10
 bspc config top_padding                20
@@ -37,6 +27,22 @@ bspc config pointer_action2            resize_side
 bspc config pointer_action3            resize_corner
 bspc config remove_disabled_monitors   true
 bspc config merge_overlapping_monitors true
+
+if [[ $(hostname) == 'obe-thinkpad' ]]; then
+  polybar -r laptop &
+  bspc monitor eDP-1 -d 1 2 3 4 5 6 7 8 9 0
+elif [[ $(hostname) == 'obe-desktop' ]]; then
+  polybar desktop &
+  polybar desktop-secondary &
+  polybar desktop-tertiary &
+
+  bspc monitor DP-1 -d 1 2 3 4
+  bspc monitor DVI-I-1 -d 5 6 7
+  bspc monitor DVI-D-0 -d 8 9 0
+
+  bspc monitor DP-1 -s DVI-I-1
+fi
+
 
 
 

@@ -50,5 +50,5 @@
 xterm.vt100.faceName: Iosevka:size=8
 xterm*selectToClipboard: true
 
-Xcursor.size: 16
+Xcursor.size: 12
 
