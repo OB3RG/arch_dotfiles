@@ -42,6 +42,7 @@ udisks2
 tumbler
 poppler-glib
 thunar
+thunar-volman
 libu2f-host
 inetutils
 picom
@@ -50,6 +51,7 @@ nodejs
 npm
 acpilight
 direnv
+flatpak
 
 
 #AUR
