@@ -29,7 +29,7 @@ rm -rf \
   "$HOME/.config/sxhkd" \
   "$HOME/.config/polybar" \
   "$HOME/.config/dunst" \
-  "$HOME/.config/kitty" \
+  "$HOME/.config/alacritty" \
 
 
 
@@ -48,7 +48,7 @@ ln -s "$DOTFILES/sxhkd" "$HOME/.config/sxhkd"
 ln -s "$DOTFILES/own_scripts/kbd_layout_switch" "$HOME/.config/sxhkd"
 ln -s "$DOTFILES/polybar" "$HOME/.config/polybar"
 ln -s "$DOTFILES/dunst" "$HOME/.config/dunst"
-ln -s "$DOTFILES/kitty" "$HOME/.config/kitty"
+ln -s "$DOTFILES/alacritty" "$HOME/.config/alacritty"
 
 $GITCLONE https://github.com/junegunn/fzf.git "$DOTFZF"
 "$DOTFZF/install" --key-bindings --completion --no-update-rc

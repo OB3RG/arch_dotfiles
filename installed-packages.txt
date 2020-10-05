@@ -52,6 +52,7 @@ npm
 acpilight
 direnv
 flatpak
+alacritty
 
 
 #AUR
