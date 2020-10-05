@@ -1,3 +1,15 @@
+font:
+  normal:
+    family: Iosevka
+    style: Regular
+  bold:
+    family: Iosevka
+    style: Bold
+  italic:
+    family: Iosevka
+    style: Italic
+  size: 10
+
 colors:
   primary:
     background: '#2e3440'
@@ -46,3 +58,5 @@ colors:
     magenta: '#8c738c'
     cyan: '#6d96a5'
     white: '#aeb3bb'
+
+live_config_reload: true
