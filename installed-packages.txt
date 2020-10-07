@@ -43,6 +43,8 @@ tumbler
 poppler-glib
 thunar
 thunar-volman
+thunar-archive-plugin
+xarchive
 libu2f-host
 inetutils
 picom
