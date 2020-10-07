@@ -60,10 +60,12 @@ endfunction
 " Ale
 let g:ale_fixers = {}
 let g:ale_fixers['javascript'] = ['prettier']
+let g:ale_fixers['typescript'] = ['prettier']
 let g:ale_fixers['json'] = ['prettier']
 let g:ale_fixers['scss'] = ['stylelint', 'prettier']
 let g:ale_fix_on_save = 1 " Fix files automatically on save
 let g:ale_javascript_prettier_use_local_config = 1
+let g:ale_typescript_prettier_use_local_config = 1
 let g:ale_linters = {'javascript': ['flow']}
 let g:ale_pattern_options = {
       \ '\.min\.js$': {'ale_linters': [], 'ale_fixers': []},
@@ -79,7 +81,8 @@ nnoremap <Leader>b :FzfBuffers<CR>
 nnoremap <Leader>h :FzfHistory<CR>
 nnoremap <Leader>t :FzfBTags<CR>
 nnoremap <Leader>T :FzfTags<CR>
-nnoremap <C-p> :FzfFiles<CR>
+nnoremap <C-p> :FzfGFiles<CR>
+nnoremap <C-C> :FzfAg<CR>
 " Have FZF list all tracked files plus untracked files minus your ignored files
 nnoremap <Leader>p :FzfGitFiles --exclude-standard --others --cached<CR>
 nnoremap <Leader>g :FzfRg<CR>
