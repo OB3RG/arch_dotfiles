@@ -81,4 +81,5 @@ export PATH=$PATH:$HOME/.local/bin
 # Some NODE TS vim trickery
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
+export PATH=$PATH:$HOME/.linkerd2/bin
 

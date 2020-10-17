@@ -30,6 +30,7 @@ Plug 'tpope/vim-fugitive'
 " Syntax Highlightning
 Plug 'sheerun/vim-polyglot'
 Plug 'Quramy/vim-js-pretty-template'
+Plug 'hashivim/vim-terraform'
 
 " Appearance and themes
 Plug 'arcticicestudio/nord-vim'
