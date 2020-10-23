@@ -11,11 +11,6 @@ fi
 # Colorize output and some exclusions
 alias grep="grep --color=auto --exclude-dir={.git,artwork,node_modules,vendor}"
 
-#NVM
-if [ -z ${NVM_DIR+x} ]; then
-  export NVM_DIR="$HOME/.nvm"
-  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
-fi
 
 # HTTPie aliases
 alias GET='http'
@@ -32,3 +27,5 @@ function pp {
   ss -lptn sport = :$1 | grep -Eo 'pid=[0-9]+' | cut -c5-
 }
 
+
+alias dka="docker container kill $(docker ps -q)"
