@@ -16,17 +16,17 @@
     # the top and down respectively.
     # The width can be negative.  In this case the actual width is the
     # screen width minus the width defined in within the geometry option.
-    geometry = "300x15-30+35"
+    geometry = "400x5-65+0"
 
     indicate_hidden = yes
     shrink = no
     transparency = 0
     notification_height = 0
-    separator_height = 2
+    separator_height = 1
     padding = 8
     horizontal_padding = 8
-    frame_width = 3
-    frame_color = "#aaaaaa"
+    frame_width = 0
+    frame_color = "#404246"
     separator_color = frame
     sort = yes
     idle_threshold = 120

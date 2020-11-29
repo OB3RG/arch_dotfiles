@@ -1,11 +1,20 @@
 #! /bin/sh
 
-sxhkd &
-picom --config $HOME/.config/bspwm/picom.conf &
-xfce4-power-manager &
-nitrogen --restore &
-xsetroot -cursor_name left_ptr &
-setxkbmap -model pc104 -layout us,se -option grp:ctrls_toggle &
+# Start/restart function
+start() {
+  killall $1
+  $@ &
+}
+
+start sxhkd
+start picom --config $HOME/.config/bspwm/picom.conf
+start xfce4-power-manager
+start nitrogen --restore
+start dunst
+start xsetroot -cursor_name left_ptr
+start pulseeffects --gapplication-service
+
+setxkbmap -model pc104 -layout us,se -option grp:ctrls_toggle
 
 bspc config border_width               2
 bspc config window_gap                 10
