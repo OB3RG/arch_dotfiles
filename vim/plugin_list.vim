@@ -33,7 +33,8 @@ Plug 'Quramy/vim-js-pretty-template'
 Plug 'hashivim/vim-terraform'
 
 " Appearance and themes
-Plug 'arcticicestudio/nord-vim'
+" Plug 'arcticicestudio/nord-vim'
+Plug 'morhetz/gruvbox'
 Plug 'itchyny/lightline.vim'
 Plug 'ap/vim-buftabline'
 

@@ -1,6 +1,8 @@
 " Gruvbox
 set background=dark
-colorscheme nord
+colorscheme gruvbox
+
+
 
 " Lightline
 function! CocCurrentFunction()
