@@ -85,6 +85,7 @@
 *.color13: gruvbox15
 *.color14: gruvbox7
 *.color15: gruvbox6
+*.color16: gruvbox10
 
 xterm.vt100.faceName: Iosevka:size=8
 xterm*selectToClipboard: true

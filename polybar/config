@@ -17,13 +17,18 @@
 ;==========================================================
 
 [colors]
+darkgray = ${xrdb:color8}
+orange = ${xrdb:color3}
+yellow = ${xrdb:color1}
+white = ${xrdb:color5}
+green = ${xrdb:color16}
 background = ${xrdb:background}
-background-alt = ${xrdb:color0}
-foreground = ${xrdb:foreground}
-foreground-alt = ${xrdb:color2}
-primary = ${xrdb:color4}
-secondary = ${xrdb:color2}
-alert = ${xrdb:color1}
+background-alt = #4e4e4e
+foreground = ${xrdb:color9}
+foreground-alt = ${xrdb:foreground}
+primary = ${xrdb:color9}
+secondary = ${colors.orange}
+alert = ${xrdb:color0}
 
 [bar/desktop]
 monitor=DP-1

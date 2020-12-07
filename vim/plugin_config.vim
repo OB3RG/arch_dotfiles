@@ -3,7 +3,6 @@ set background=dark
 colorscheme gruvbox
 
 
-
 " Lightline
 function! CocCurrentFunction()
   return get(b:, 'coc_current_function', '')

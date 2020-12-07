@@ -54,6 +54,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'Yggdroot/indentLine'
 Plug 'lfv89/vim-interestingwords'
 Plug 'scrooloose/nerdcommenter'
+Plug 'lilydjwg/colorizer'
 
 
 call plug#end()
