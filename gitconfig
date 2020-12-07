@@ -24,3 +24,5 @@
 	default = simple
 [core]
 	editor = vim
+[pull]
+	rebase = true

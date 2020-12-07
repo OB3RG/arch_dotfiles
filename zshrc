@@ -45,33 +45,9 @@ bindkey -v
 bindkey '^a' beginning-of-line
 bindkey '^e' end-of-line
 
-git_prompt() {
-  BRANCH=$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/*\(.*\)/\1/')
-
-  if [ ! -z $BRANCH ]; then
-    echo -n "%F{yellow}$BRANCH"
-
-    if [ ! -z "$(git status --short)" ]; then
-      echo " %F{red}✗"
-    fi
-  fi
-}
-
-vim_prompt() {
-  if [ ! -z $VIMRUNTIME ]; then
-    echo ":%F{green}sh ";
-  fi
-}
-
-PS1='
-$(vim_prompt)%F{blue}%~$(git_prompt)
-%F{244}%# %F{reset}'
-
 source $HOME/.fzf.zsh
 
 export PATH=$PATH:$HOME/.npm-global/bin
-# add Pulumi to the PATH
-export PATH=$PATH:$HOME/.pulumi/bin
 # add user bin to PATH
 export PATH=$PATH:$HOME/bin
 
@@ -81,8 +57,5 @@ export PATH=$PATH:$HOME/.local/bin
 # Some NODE TS vim trickery
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
-export PATH=$PATH:$HOME/.linkerd2/bin
-
-
-# Hook DIRENV
-eval "$(direnv hook zsh)"
+# Starship
+eval "$(starship init zsh)"
