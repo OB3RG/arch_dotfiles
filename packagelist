@@ -16,8 +16,8 @@ xdotool
 time
 #alsa
 #alsa-utils
-#pulseaudio
-#pavucontrol
+pulseaudio
+pavucontrol
 nitrogen
 openssh
 unzip
@@ -58,14 +58,14 @@ alacritty
 
 
 #AUR
-xtitle
-polybar
-slack
-discord
-postman
-ttf-iosevka
-nvm-git
+#xtitle
+#polybar
+#slack
+#discord
+#postman
+#ttf-iosevka
+#nvm-git
 
 
 #Compile or custom resource
-yay
+#yay
