@@ -44,7 +44,6 @@ poppler-glib
 thunar
 thunar-volman
 thunar-archive-plugin
-xarchive
 libu2f-host
 inetutils
 picom
@@ -55,10 +54,13 @@ acpilight
 direnv
 flatpak
 alacritty
-
+iwd
+rxvt-unicode
+arandr
 
 #AUR
 #xtitle
+#xarchive
 #polybar
 #slack
 #discord
