@@ -57,6 +57,7 @@ alacritty
 iwd
 rxvt-unicode
 arandr
+xdg-user-dirs
 
 #AUR
 #xtitle
