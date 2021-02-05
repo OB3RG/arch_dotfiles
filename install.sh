@@ -31,8 +31,6 @@ rm -rf \
   "$HOME/.config/dunst" \
   "$HOME/.config/alacritty" \
 
-
-
 mkdir -p \
   "$DOTLOCAL" \
 
