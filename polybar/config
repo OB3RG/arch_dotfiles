@@ -91,7 +91,7 @@ font-2 = Iosevka:weight=bold:pixelsize=10;0
 
 modules-left = bspwm
 modules-center = xwindow
-modules-right = pulseaudio xkeyboard cpu memory wlan temperature date powermenu
+modules-right = pulseaudio xkeyboard cpu memory wlan temperature battery date powermenu
 
 tray-position = right
 tray-padding = 2
@@ -313,9 +313,6 @@ bar-volume-empty-foreground = ${colors.foreground-alt}
 
 [module/battery]
 type = internal/battery
-battery = BAT0
-adapter = ADP1
-full-at = 98
 
 format-charging = <animation-charging> <label-charging>
 format-charging-underline = #ffb52a
