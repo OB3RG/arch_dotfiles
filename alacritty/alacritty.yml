@@ -42,3 +42,7 @@ colors:
     white:   '#ebdbb2'
 
 live_config_reload: true
+
+env:
+  TERM: xterm-256color
+
