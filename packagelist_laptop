@@ -49,7 +49,7 @@ ffmpeg
 nodejs
 npm
 acpilight
-direnv
+#direnv
 flatpak
 alacritty
 iwd
