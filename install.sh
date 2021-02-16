@@ -44,9 +44,14 @@ ln -S "$DOTFILES/Xresources" "$HOME/.Xresources"
 ln -s "$DOTFILES/bspwm" "$HOME/.config/bspwm"
 ln -s "$DOTFILES/sxhkd" "$HOME/.config/sxhkd"
 ln -s "$DOTFILES/own_scripts/kbd_layout_switch" "$HOME/.config/sxhkd"
-ln -s "$DOTFILES/polybar" "$HOME/.config/polybar"
 ln -s "$DOTFILES/dunst" "$HOME/.config/dunst"
 ln -s "$DOTFILES/alacritty" "$HOME/.config/alacritty"
+
+if [[ $(hostname) == 'obe-laptop' ]]; then
+  ln -s "$DOTFILES/polybar_laptop" "$HOME/.config/polybar"
+elif [[ $(hostname) == 'obe-desktop' ]]; then
+  ln -s "$DOTFILES/polybar_desktop" "$HOME/.config/polybar"
+fi
 
 $GITCLONE https://github.com/junegunn/fzf.git "$DOTFZF"
 "$DOTFZF/install" --key-bindings --completion --no-update-rc
