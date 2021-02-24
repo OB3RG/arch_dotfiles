@@ -55,6 +55,8 @@ alacritty
 iwd
 arandr
 xdg-user-dirs
+bluez
+bluez-utils
 
 #AUR
 #xtitle
