@@ -44,7 +44,7 @@ poppler-glib
 thunar
 thunar-volman
 thunar-archive-plugin
-libu2f-host
+libfido2
 inetutils
 picom
 ffmpeg
