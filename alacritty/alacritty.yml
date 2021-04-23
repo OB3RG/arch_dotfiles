@@ -15,30 +15,30 @@ colors:
   # Default colors
   primary:
     # hard contrast: background = '#1d2021'
-    background: '#282828'
+    background: '#32302f'
     # soft contrast: background = '#32302f'
     foreground: '#ebdbb2'
 
   # Normal colors
   normal:
     black:   '#282828'
-    red:     '#cc241d'
-    green:   '#98971a'
-    yellow:  '#d79921'
+    red:     '#CC241D'
+    green:   '#98971A'
+    yellow:  '#D79921'
     blue:    '#458588'
-    magenta: '#b16286'
-    cyan:    '#689d6a'
-    white:   '#a89984'
+    magenta: '#B16286'
+    cyan:    '#689D6A'
+    white:   '#A89984'
 
   # Bright colors
   bright:
-    black:   '#928374'
-    red:     '#fb4934'
+    black:   '#3C3836'
+    red:     '#FB4934'
     green:   '#b8bb26'
     yellow:  '#fabd2f'
-    blue:    '#83a598'
-    magenta: '#d3869b'
-    cyan:    '#8ec07c'
+    blue:    '#83A598'
+    magenta: '#D3869B'
+    cyan:    '#8ec08c'
     white:   '#ebdbb2'
 
 live_config_reload: true

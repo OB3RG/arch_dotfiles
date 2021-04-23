@@ -13,6 +13,7 @@ start nitrogen --restore
 start dunst
 start xsetroot -cursor_name left_ptr
 start pulseeffects --gapplication-service
+start nm-applet --indicator
 
 setxkbmap -model pc104 -layout us,se -option grp:ctrls_toggle
 

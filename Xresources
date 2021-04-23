@@ -6,86 +6,48 @@
 ! Repository: https://github.com/arcticicestudio/nord-xresources
 ! License:    MIT
 
-#define nord0 #2E3440
-#define nord1 #3B4252
-#define nord2 #434C5E
-#define nord3 #4C566A
-#define nord4 #D8DEE9
-#define nord5 #E5E9F0
-#define nord6 #ECEFF4
-#define nord7 #8FBCBB
-#define nord8 #88C0D0
-#define nord9 #81A1C1
-#define nord10 #5E81AC
-#define nord11 #BF616A
-#define nord12 #D08770
-#define nord13 #EBCB8B
-#define nord14 #A3BE8C
-#define nord15 #B48EAD
+#define background #32302f
+#define backgroundalt #3C3836
+#define foreground #ebdbb2
+#define primary #D79921
+#define black #282828
+#define grey #928374
+#define red #FB4934
+#define darkred #CC241D
+#define green #B8BB26
+#define darkgreen #98971A
+#define yellow #FABD2F
+#define darkyellow #D79921
+#define blue #83A598
+#define darkblue #458588
+#define pink #D3869B
+#define darkpink #B16286
+#define lime #8Ec08C
+#define darklime #689D6A
+#define white #EBDBB2
+#define darkwhite #A89984
 
-#define gruvbox0 #282828
-#define gruvbox1 #cc241d
-#define gruvbox2 #98971a
-#define gruvbox3 #d79921
-#define gruvbox4 #458588
-#define gruvbox5 #b16286
-#define gruvbox6 #689d6a
-#define gruvbox7 #a89984
-#define gruvbox8 #928375
-#define gruvbox9 #fb4934
-#define gruvbox10 #b8bb26
-#define gruvbox11 #fabd2f
-#define gruvbox12 #83a598
-#define gruvbox13 #d3869b
-#define gruvbox14 #8ec97c
-#define gruvbox15 #ebdbb2
-
-! *.foreground:   nord4
-! *.background:   nord0
-! *.cursorColor:  nord4
-! *fading: 35
-! *fadeColor: nord3
-
-! *.color0: nord1
-! *.color1: nord11
-! *.color2: nord14
-! *.color3: nord13
-! *.color4: nord9
-! *.color5: nord15
-! *.color6: nord8
-! *.color7: nord5
-! *.color8: nord3
-! *.color9: nord11
-! *.color10: nord14
-! *.color11: nord13
-! *.color12: nord9
-! *.color13: nord15
-! *.color14: nord7
-! *.color15: nord6
-
-*.foreground:   gruvbox4
-*.background:   gruvbox0
-*.cursorColor:  gruvbox4
+*.foreground:   foreground
+*.background:   background
+*.cursorColor:  blue
 *fading: 35
-*fadeColor: gruvbox3
+*fadeColor: darkyellow
 
-*.color0: gruvbox1
-*.color1: gruvbox11
-*.color2: gruvbox14
-*.color3: gruvbox13
-*.color4: gruvbox9
-*.color5: gruvbox15
-*.color6: gruvbox8
-*.color7: gruvbox5
-*.color8: gruvbox3
-*.color9: gruvbox11
-*.color10: gruvbox14
-*.color11: gruvbox13
-*.color12: gruvbox9
-*.color13: gruvbox15
-*.color14: gruvbox7
-*.color15: gruvbox6
-*.color16: gruvbox10
+*.color0: primary
+*.color1: yellow
+*.color2: darklime
+*.color3: pink
+*.color4: red
+*.color5: white
+*.color6: grey
+*.color7: darkpink
+*.color10: lime
+*.color11: darkyellow
+*.color12: blue
+*.color13: darkwhite
+*.color14: darkblue
+*.color15: darkred
+*.color16: green
 
 xterm.vt100.faceName: Iosevka:size=8
 xterm*selectToClipboard: true
