@@ -1,0 +1,8 @@
+[module/powermenu]
+type = custom/text
+content = "⏻"
+click-left = ~/.config/rofi/powermenu.sh
+content-background = ${colors.red}
+content-foreground = ${colors.black}
+content-padding = 1
+margin-right = 0

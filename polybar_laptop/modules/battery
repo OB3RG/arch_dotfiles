@@ -1,0 +1,37 @@
+[module/battery_one]
+type = internal/battery
+
+full-at = 99
+battery = BAT0
+adapter = ADP1
+poll-interval = 5
+format-charging = <label-charging>
+format-discharging = <label-discharging>
+
+label-charging = %{T2}%{T-} %{T2}%percentage%%%{T-}
+label-charging-foreground = ${colors.cyan}
+
+label-discharging = %{T1}%{T-} %{T2}%percentage%%%{T-}
+label-discharging-foreground = ${colors.red}
+
+label-full = %{T1}%{T-} %{T2}%{T-}
+label-full-foreground = ${colors.blue}
+
+[module/battery_two]
+type = internal/battery
+
+full-at = 99
+battery = BAT1
+adapter = ADP1
+poll-interval = 5
+format-charging = <label-charging>
+format-discharging = <label-discharging>
+
+label-charging = %{T2}%{T-} %{T2}%percentage%%%{T-}
+label-charging-foreground = ${colors.cyan}
+
+label-discharging = %{T1}%{T-} %{T2}%percentage%%%{T-}
+label-discharging-foreground = ${colors.red}
+
+label-full = %{T1}%{T-} %{T2}%{T-}
+label-full-foreground = ${colors.blue}

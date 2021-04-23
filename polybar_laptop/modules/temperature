@@ -1,0 +1,10 @@
+[module/temperature]
+type = internal/temperature
+thermal-zone = 0
+warn-temperature = 60
+
+format-foreground = ${colors.yellow}
+format-prefix = " "
+format = <label>
+
+label = %temperature-c%

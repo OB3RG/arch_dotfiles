@@ -1,0 +1,7 @@
+[module/memory]
+type = internal/memory
+interval = 0.5
+format-foreground = ${colors.yellow}
+format = <label>
+
+label = %percentage_used%%

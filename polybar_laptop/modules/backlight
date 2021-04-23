@@ -1,0 +1,10 @@
+[module/backlight]
+type = internal/backlight
+
+card = intel_backlight
+enable-scroll = true
+
+format = <label>
+format-foreground = ${colors.green}
+
+label = %{T2} %percentage%%%{T-}

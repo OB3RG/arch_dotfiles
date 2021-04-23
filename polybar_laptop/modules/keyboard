@@ -1,0 +1,7 @@
+[module/keyboard]
+type = internal/xkeyboard
+blacklist-0 = num lock
+
+format-foreground = ${colors.green}
+
+label-layout = %layout%

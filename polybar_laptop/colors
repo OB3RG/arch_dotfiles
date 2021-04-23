@@ -1,0 +1,23 @@
+; Colors
+
+[colors]
+foreground     = ${xrdb:foreground}
+background     = ${xrdb:background}
+cursorColor    = ${self.foreground}
+
+black          = ${xrdb:color0}
+black-bright   = ${xrdb:color8}
+red            = ${xrdb:color1}
+red-bright     = ${xrdb:color9}
+green          = ${xrdb:color2}
+green-bright   = ${xrdb:color18}
+yellow         = ${xrdb:color3}
+yellow-bright  = ${xrdb:color14}
+blue           = ${xrdb:color4}
+blue-bright    = ${xrdb:color1e}
+magenta        = ${xrdb:color5}
+magenta-bright = ${xrdb:color1b}
+cyan           = ${xrdb:color6}
+cyan-bright    = ${xrdb:color17}
+white          = ${xrdb:color7}
+white-bright   = ${xrdb:color15}

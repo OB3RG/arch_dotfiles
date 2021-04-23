@@ -10,36 +10,41 @@ font:
     style: Italic
   size: 7
 
-
 colors:
   # Default colors
   primary:
-    # hard contrast: background = '#1d2021'
-    background: '#32302f'
-    # soft contrast: background = '#32302f'
-    foreground: '#ebdbb2'
+    background: '0x2d2d2d'
+    foreground: '0xd3d0c8'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x2d2d2d'
+    cursor: '0xd3d0c8'
 
   # Normal colors
   normal:
-    black:   '#282828'
-    red:     '#CC241D'
-    green:   '#98971A'
-    yellow:  '#D79921'
-    blue:    '#458588'
-    magenta: '#B16286'
-    cyan:    '#689D6A'
-    white:   '#A89984'
+    black:   '0x2d2d2d'
+    red:     '0xf2777a'
+    green:   '0x99cc99'
+    yellow:  '0xffcc66'
+    blue:    '0x6699cc'
+    magenta: '0xcc99cc'
+    cyan:    '0x66cccc'
+    white:   '0xd3d0c8'
 
   # Bright colors
   bright:
-    black:   '#3C3836'
-    red:     '#FB4934'
-    green:   '#b8bb26'
-    yellow:  '#fabd2f'
-    blue:    '#83A598'
-    magenta: '#D3869B'
-    cyan:    '#8ec08c'
-    white:   '#ebdbb2'
+    black:   '0x747369'
+    red:     '0xf99157'
+    green:   '0x393939'
+    yellow:  '0x515151'
+    blue:    '0xa09f93'
+    magenta: '0xe8e6df'
+    cyan:    '0xd27b53'
+    white:   '0xf2f0ec'
+
+draw_bold_text_with_bright_colors: false
+
 
 live_config_reload: true
 

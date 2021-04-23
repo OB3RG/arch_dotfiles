@@ -1,0 +1,9 @@
+[module/title]
+type = internal/xwindow
+format = <label>
+format-foreground = ${colors.primary}
+
+label = %title%
+label-maxlen = 65
+label-empty = %{T2}Oberg Bspwm%{T-}
+label-empty-foreground = ${colors.grey}

@@ -1,53 +1,41 @@
-! Copyright (c) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
-! Copyright (c) 2016-present Sven Greb <code@svengreb.de>
+#define base00 #2d2d2d
+#define base01 #393939
+#define base02 #515151
+#define base03 #747369
+#define base04 #a09f93
+#define base05 #d3d0c8
+#define base06 #e8e6df
+#define base07 #f2f0ec
+#define base08 #f2777a
+#define base09 #f99157
+#define base0A #ffcc66
+#define base0B #99cc99
+#define base0C #66cccc
+#define base0D #6699cc
+#define base0E #cc99cc
+#define base0F #d27b53
 
-! Project:    Nord XResources
-! Version:    0.1.0
-! Repository: https://github.com/arcticicestudio/nord-xresources
-! License:    MIT
+*foreground:   base05
+*background:   base00
+*cursorColor:  base05
 
-#define background #32302f
-#define backgroundalt #3C3836
-#define foreground #ebdbb2
-#define primary #D79921
-#define black #282828
-#define grey #928374
-#define red #FB4934
-#define darkred #CC241D
-#define green #B8BB26
-#define darkgreen #98971A
-#define yellow #FABD2F
-#define darkyellow #D79921
-#define blue #83A598
-#define darkblue #458588
-#define pink #D3869B
-#define darkpink #B16286
-#define lime #8Ec08C
-#define darklime #689D6A
-#define white #EBDBB2
-#define darkwhite #A89984
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
 
-*.foreground:   foreground
-*.background:   background
-*.cursorColor:  blue
-*fading: 35
-*fadeColor: darkyellow
-
-*.color0: primary
-*.color1: yellow
-*.color2: darklime
-*.color3: pink
-*.color4: red
-*.color5: white
-*.color6: grey
-*.color7: darkpink
-*.color10: lime
-*.color11: darkyellow
-*.color12: blue
-*.color13: darkwhite
-*.color14: darkblue
-*.color15: darkred
-*.color16: green
+*color8:       base03
+*color9:       base09
+*color10:      base01
+*color11:      base02
+*color12:      base04
+*color13:      base06
+*color14:      base0F
+*color15:      base07
 
 xterm.vt100.faceName: Iosevka:size=8
 xterm*selectToClipboard: true

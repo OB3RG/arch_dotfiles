@@ -1,6 +1,6 @@
 " Gruvbox
 set background=dark
-colorscheme gruvbox
+colorscheme base16-eighties
 
 
 " Lightline

@@ -34,7 +34,8 @@ Plug 'hashivim/vim-terraform'
 
 " Appearance and themes
 " Plug 'arcticicestudio/nord-vim'
-Plug 'morhetz/gruvbox'
+" Plug 'morhetz/gruvbox'
+Plug 'chriskempson/base16-vim'
 Plug 'itchyny/lightline.vim'
 Plug 'ap/vim-buftabline'
 
