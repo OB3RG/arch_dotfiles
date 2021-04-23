@@ -2,7 +2,7 @@
     ### Display ###
 
     monitor = 0
-    follow = mouse
+    follow = none
 
     # The geometry of the window:
     #   [{width}]x{height}[+/-{x}+/-{y}]
@@ -16,26 +16,26 @@
     # the top and down respectively.
     # The width can be negative.  In this case the actual width is the
     # screen width minus the width defined in within the geometry option.
-    geometry = "400x5-65+0"
+    geometry = "300x5-30-30"
 
     indicate_hidden = yes
     shrink = no
-    transparency = 0
+    transparency = 16
     notification_height = 0
-    separator_height = 1
+    separator_height = 2
     padding = 8
     horizontal_padding = 8
-    frame_width = 0
+    frame_width = 1
     frame_color = "#404246"
-    separator_color = frame
+    separator_color = auto
     sort = yes
     idle_threshold = 120
 
     ### Text ###
 
-    font = Monospace 14
+    font = Noto Sans Regular 11
     line_height = 0
-    markup = full
+    markup = yes
     format = "<b>%s</b>\n%b"
     alignment = left
     show_age_threshold = 60
@@ -48,9 +48,10 @@
 
     ### Icons ###
 
-    icon_position = off
+    icon_position = left
     max_icon_size = 32
-    icon_path = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
+    #icon_path = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
+    icon_path = /usr/share/icons/Paper/16x16/status/:/usr/share/icons/Paper/16x16/devices/:/usr/share/icons/Paper/16x16/apps/:/usr/share/pixmaps/
 
     ### History ###
 
