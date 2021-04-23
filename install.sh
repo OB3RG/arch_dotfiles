@@ -30,7 +30,6 @@ rm -rf \
   "$HOME/.config/polybar" \
   "$HOME/.config/dunst" \
   "$HOME/.config/alacritty" \
-  "$HOME/.config/rofi" \
 
 mkdir -p \
   "$DOTLOCAL" \
@@ -47,7 +46,6 @@ ln -s "$DOTFILES/sxhkd" "$HOME/.config/sxhkd"
 ln -s "$DOTFILES/own_scripts/kbd_layout_switch" "$HOME/.config/sxhkd"
 ln -s "$DOTFILES/dunst" "$HOME/.config/dunst"
 ln -s "$DOTFILES/alacritty" "$HOME/.config/alacritty"
-ln -s "$DOTFILES/rofi" "$HOME/.config/rofi"
 
 if [[ $(hostname) == 'obe-laptop' ]]; then
   ln -s "$DOTFILES/polybar_laptop" "$HOME/.config/polybar"

@@ -42,3 +42,16 @@ xterm*selectToClipboard: true
 
 Xcursor.size: 12
 
+rofi.opacity:       90
+rofi.width:         50
+rofi.lines:         10
+rofi.columns:       1
+!rofi.eh:            2
+rofi.font:          Iosevka 10
+rofi.color-enabled: true
+rofi.color-window: #2d2d2d, #002b36, #000000
+rofi.color-normal: #2d2d2d, #d3d0c8, #393939, #6699cc, #2d2d2d
+rofi.color-active: #99cc99, #2d2d2d, #66cccc, #ffcc66, #2d2d2d
+rofi.color-urgent: #f2777a, #2d2d2d, #f99157, #cc99cc, #2d2d2d
+
+rofi.matching:      fuzzy
