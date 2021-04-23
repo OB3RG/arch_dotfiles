@@ -42,6 +42,14 @@ xterm*selectToClipboard: true
 
 Xcursor.size: 12
 
+Xft.antialias: 1
+Xft.hinting: 1
+Xft.autohint: 0
+Xft.hintstyle: hintslight
+Xft.rgba: rgb
+Xft.lcdfilter: lcddefault
+!Xft.dpi: 125.37
+
 rofi.opacity:       90
 rofi.width:         50
 rofi.lines:         10
