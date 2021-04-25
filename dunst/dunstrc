@@ -26,8 +26,8 @@
     padding = 8
     horizontal_padding = 8
     frame_width = 1
-    frame_color = "#404246"
-    separator_color = auto
+    frame_color = "#d8d8d8"
+    separator_color = "#d8d8d8"
     sort = yes
     idle_threshold = 120
 
@@ -105,20 +105,19 @@
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
     background = "#282828"
-    foreground = "#928374"
+    foreground = "#585858"
     timeout = 10
     # Icon for notifications with low urgency, uncomment to enable
     #icon = /path/to/icon
 
 [urgency_normal]
-    background = "#282828"
-    foreground = "#d79921"
+    background = "#383838"
+    foreground = "#d8d8d8"
     timeout = 10
     # Icon for notifications with normal urgency, uncomment to enable
     #icon = /path/to/icon
 
 [urgency_critical]
-    background = "#282828"
-    foreground = "#cc241d"
-    frame_color = "#fb4934"
+    background = "#ab3632"
+    foreground = "#e8e8e8"
     timeout = 0

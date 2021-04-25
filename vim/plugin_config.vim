@@ -1,4 +1,4 @@
-" Gruvbox
+" Theme
 set background=dark
 colorscheme base16-eighties
 
@@ -9,7 +9,7 @@ function! CocCurrentFunction()
 endfunction
 
 let g:lightline = {
-      \ 'colorscheme': 'nord',
+      \ 'colorscheme': 'base16-eightis',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
       \             [ 'cocstatus', 'currentfunction', 'readonly', 'filename', 'modified' ] ]

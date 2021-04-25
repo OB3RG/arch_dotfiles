@@ -5,7 +5,7 @@ filetype plugin indent on
 syntax enable
 
 " terminal colors and font
-set guifont=Fira\ Code:h18
+set guifont=Iosevka:h18
 set encoding=utf-8
 set t_Co=256
 set term=screen-256color
@@ -48,9 +48,6 @@ set wildignore+=**/node_modules/**,**/dist/**,**_site/**,*.swp,*.png,*.jpg,*.gif
 
 " Use the system register for all cut yank and paste operations
 set clipboard=unnamedplus
-
-" show number
-set number
 
 " accessibility
 set list
