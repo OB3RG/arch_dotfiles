@@ -57,6 +57,7 @@ arandr
 xdg-user-dirs
 bluez
 bluez-utils
+keychain
 
 #AUR
 #xtitle
