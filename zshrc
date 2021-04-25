@@ -59,3 +59,6 @@ export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 # Starship
 eval "$(starship init zsh)"
+
+# Asks for ssh key password on first open of terminal in new login session
+eval $(keychain --eval --quiet id_rsa)
