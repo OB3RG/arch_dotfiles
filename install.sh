@@ -70,5 +70,6 @@ done
 cd "$HOME" || exit
 rm -f "${HOME}/.zcompdump*"
 
+./setup_npm.sh
 echo "ENJOY! :)"
 

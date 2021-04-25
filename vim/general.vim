@@ -11,12 +11,6 @@ set t_Co=256
 set term=screen-256color
 set termencoding=utf-8
 
-" dont conceale quotes in JSON
-let g:vim_json_syntax_conceal = 0
-
-" Enable JSX syntax highlighting in .js files
-let g:jsx_ext_required = 0
-
 " More natural split opening.
 set splitbelow
 set splitright

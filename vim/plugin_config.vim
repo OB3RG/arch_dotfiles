@@ -58,24 +58,6 @@ function! s:show_documentation()
   endif
 endfunction
 
-" Ale
-let g:ale_fixers = {}
-let g:ale_fixers['javascript'] = ['prettier']
-let g:ale_fixers['typescript'] = ['prettier']
-let g:ale_fixers['json'] = ['prettier']
-let g:ale_fixers['scss'] = ['stylelint', 'prettier']
-let g:ale_fix_on_save = 1 " Fix files automatically on save
-let g:ale_javascript_prettier_use_local_config = 1
-let g:ale_typescript_prettier_use_local_config = 1
-let g:ale_linters = {'javascript': ['flow']}
-let g:ale_pattern_options = {
-      \ '\.min\.js$': {'ale_linters': [], 'ale_fixers': []},
-      \ '\.min\.css$': {'ale_linters': [], 'ale_fixers': []},
-      \}
-
-let g:ale_sign_error = '•'
-let g:ale_sign_warning = '•'
-
 " FZF
 let g:fzf_command_prefix = 'Fzf'
 nnoremap <Leader>b :FzfBuffers<CR>
@@ -87,13 +69,6 @@ nnoremap <C-C> :FzfAg<CR>
 " Have FZF list all tracked files plus untracked files minus your ignored files
 nnoremap <Leader>p :FzfGitFiles --exclude-standard --others --cached<CR>
 nnoremap <Leader>g :FzfRg<CR>
-
-
-" Vim pretty template
-call jspretmpl#register_tag('html', 'javascript')
-
-autocmd FileType javascript JsPreTmpl
-autocmd FileType javascript.jsx JsPreTmpl
 
 " VIM GO
 let g:go_highlight_build_constraints = 1
@@ -143,7 +118,12 @@ let g:NERDSpaceDelims = 1
 let g:terraform_align=1
 let g:terraform_fmt_on_save=1
 
-" Elixir
-let g:mix_format_on_save = 1
-let g:mix_format_silent_errors = 1
+" " Elixir
+" let g:mix_format_on_save = 1
+" let g:mix_format_silent_errors = 1
 
+" Prettier
+" when running at every change you may want to disable quickfix
+let g:prettier#quickfix_enabled = 0
+
+autocmd TextChanged,InsertLeave *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync
