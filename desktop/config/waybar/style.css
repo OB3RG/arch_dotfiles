@@ -7,31 +7,20 @@
     min-height: 10px;
 }
 
-@define-color bar-bg rgba(0, 0, 0, 0);
-
-@define-color main-bg #24283b;
-@define-color main-fg #7aa2f7;
-
-@define-color wb-act-bg #bb9af7;
-@define-color wb-act-fg #b4f9f8;
-
-@define-color wb-hvr-bg #7aa2f7;
-@define-color wb-hvr-fg #cfc9c2;
-
 window#waybar {
-    background: @bar-bg;
+    background: rgba(0, 0, 0, 0);
 }
 
 tooltip {
-    background: @main-bg;
-    color: @main-fg;
+    background: #24283b;
+    color: #7aa2f7;
     border-radius: 7px;
     border-width: 0px;
 }
 
 #workspaces button {
     box-shadow: none;
-	text-shadow: none;
+    text-shadow: none;
     padding: 0px;
     border-radius: 9px;
     margin-top: 3px;
@@ -40,13 +29,13 @@ tooltip {
     padding-left: 3px;
     padding-right: 3px;
     margin-right: 0px;
-    color: @main-fg;
+    color: #7aa2f7;
     animation: ws_normal 20s ease-in-out 1;
 }
 
 #workspaces button.active {
-    background: @wb-act-bg;
-    color: @wb-act-fg;
+    background: #bb9af7;
+    color: #b4f9f8;
     margin-left: 3px;
     padding-left: 12px;
     padding-right: 12px;
@@ -56,8 +45,8 @@ tooltip {
 }
 
 #workspaces button:hover {
-    background: @wb-hvr-bg;
-    color: @wb-hvr-fg;
+    background: #7aa2f7;
+    color: #cfc9c2;
     animation: ws_hover 20s ease-in-out 1;
     transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
 }
@@ -73,13 +62,13 @@ tooltip {
     padding-left: 3px;
     padding-right: 3px;
     margin-right: 0px;
-    color: @wb-color;
+    color: #ffffff;
     animation: tb_normal 20s ease-in-out 1;
 }
 
 #taskbar button.active {
-    background: @wb-act-bg;
-    color: @wb-act-color;
+    background: #bb9af7;
+    color: #ffffff;
     margin-left: 3px;
     padding-left: 12px;
     padding-right: 12px;
@@ -89,8 +78,8 @@ tooltip {
 }
 
 #taskbar button:hover {
-    background: @wb-hvr-bg;
-    color: @wb-hvr-color;
+    background: #7aa2f7;
+    color: #ffffff;
     animation: tb_hover 20s ease-in-out 1;
     transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
 }
@@ -126,8 +115,8 @@ tooltip {
 #custom-sr_end,
 #custom-rl_end,
 #custom-rr_end {
-    color: @main-fg;
-    background: @main-bg;
+    color: #7aa2f7;
+    background: #24283b;
     opacity: 1;
     margin: 4px 0px 4px 0px;
     padding-left: 4px;
