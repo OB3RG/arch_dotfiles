@@ -36,3 +36,4 @@ ttf-material-icons-git
 Git:
 https://github.com/siddrs/tokyo-night-sddm
 https://www.lunarvim.org/docs/installation
+https://github.com/sindresorhus/pure
