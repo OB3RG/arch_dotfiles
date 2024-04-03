@@ -26,7 +26,7 @@ rm -rf \
   "$DOTCONFIG/wofi" \
   "$DOTCONFIG/lvim" 
 
-ln -s "$DOTFILES/gitconfig" "$HOME/.gitconfig"
+ln -s "$DOTFILES/common/gitconfig" "$HOME/.gitconfig"
 ln -s "$DOTFILES/common/zsh/zshrc" "$HOME/.zshrc"
 ln -s "$DOTFILES/common/config/lvim" "$HOME/.config/lvim"
 ln -s "$DOTFILES/desktop/config/alacritty" "$DOTCONFIG/alacritty"
