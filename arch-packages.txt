@@ -6,6 +6,8 @@ sddm
 qt5-quickcontrols2 
 qt5-graphicaleffects 
 qt5-svg
+qt5-wayland
+qt6-wayland
 hyprland
 hyprpaper
 neofetch
@@ -23,12 +25,12 @@ taplo-cli
 terraform
 typescript-language-server
 yaml-language-server
-terraform
 zsh
 zsh-autosuggestions
 zsh-completions
 zsh-syntax-highlighting
 neovim
+xdg-desktop-portal-hyprland
 
 
 AUR:
