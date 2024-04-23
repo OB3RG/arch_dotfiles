@@ -19,6 +19,7 @@ rm -rf \
   "$HOME/.zshrc" \
   "$DOTCONFIG/dolphinrc" \
   "$DOTCONFIG/alacritty" \
+  "$DOTCONFIG/hypr/common" \
   "$DOTCONFIG/hypr" \
   "$DOTCONFIG/swaylock" \
   "$DOTCONFIG/waybar" \
