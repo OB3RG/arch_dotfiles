@@ -1,5 +1,5 @@
 #!/usr/bin/env zsh
-export DOTFILES=$HOME/.dotfiles/common/zsh
+export DOTFILES=$HOME/.dotfiles/zsh
 
 source $DOTFILES/env
 source $DOTFILES/aliases
