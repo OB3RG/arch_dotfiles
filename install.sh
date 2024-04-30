@@ -19,9 +19,9 @@ rm -rf \
   "$HOME/.zshrc" \
   "$DOTCONFIG/lvim" 
 
-ln -s "$DOTFILES/common/gitconfig" "$HOME/.gitconfig"
-ln -s "$DOTFILES/common/zsh/zshrc" "$HOME/.zshrc"
-ln -s "$DOTFILES/common/config/lvim" "$HOME/.config/lvim"
+ln -s "$DOTFILES/gitconfig" "$HOME/.gitconfig"
+ln -s "$DOTFILES/zsh/zshrc" "$HOME/.zshrc"
+ln -s "$DOTFILES/config/lvim" "$HOME/.config/lvim"
 
 cd "$HOME" || exit
 rm -f "${HOME}/.zcompdump*"
