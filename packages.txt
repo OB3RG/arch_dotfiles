@@ -1,0 +1,12 @@
+Packages:
+
+ripgrep
+zsh
+zsh-autosuggestions
+zsh-completions
+zsh-syntax-highlighting
+neovim
+
+Git:
+https://www.lunarvim.org/docs/installation
+https://github.com/sindresorhus/pure
