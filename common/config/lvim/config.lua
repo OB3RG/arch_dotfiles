@@ -3,24 +3,8 @@
 -- Forum: https://www.reddit.com/r/lunarvim/
 -- Discord: https://discord.com/invite/Xb9B4Ny
 
-lvim.colorscheme = "tokyonight"
+lvim.colorscheme = "gruvbox-material"
 
-require("lvim.lsp.manager").setup("cssls", {
-settings = {
-  css = { validate = true,
-        lint = {
-            unknownAtRules = "ignore",
-        }
-  },
-  scss = { validate = true,
-        lint = {
-            unknownAtRules = "ignore"
-        }
-  },
-  less = { validate = true,
-        lint = {
-            unknownAtRules = "ignore"
-        }
-  },
- },
-})
+lvim.plugins = {
+  { "sainnhe/gruvbox-material"}
+}

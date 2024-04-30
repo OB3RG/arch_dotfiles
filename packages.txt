@@ -6,6 +6,8 @@ zsh-autosuggestions
 zsh-completions
 zsh-syntax-highlighting
 neovim
+fzf
+
 
 Git:
 https://www.lunarvim.org/docs/installation
