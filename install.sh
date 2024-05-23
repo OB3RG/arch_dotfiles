@@ -17,11 +17,13 @@ git clone git@github.com:OB3RG/dotfiles.git $DOTFILES
 rm -rf \
   "$HOME/.gitconfig" \
   "$HOME/.zshrc" \
-  "$DOTCONFIG/lvim" 
+  "$DOTCONFIG/lvim" \
+  "$DOTCONFIG/tmux"
 
 ln -s "$DOTFILES/gitconfig" "$HOME/.gitconfig"
 ln -s "$DOTFILES/zsh/zshrc" "$HOME/.zshrc"
-ln -s "$DOTFILES/config/lvim" "$HOME/.config/lvim"
+ln -s "$DOTFILES/config/lvim" "$DOTCONFIG/lvim"
+ln -s "$DOTFILES/config/tmux" "$DOTCONFIG/tmux"
 
 cd "$HOME" || exit
 rm -f "${HOME}/.zcompdump*"
