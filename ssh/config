@@ -1,0 +1,6 @@
+Host github.com
+  IdentityAgent ${XDG_RUNTIME_DIR}/tkey-ssh-agent/sock
+
+Host *
+  IdentityAgent $SSH_AUTH_SOCK
+
